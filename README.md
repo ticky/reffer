@@ -1,5 +1,5 @@
 # Reffer
-[![npm](https://img.shields.io/npm/v/reffer.svg?maxAge=2592000)](https://www.npmjs.com/package/reffer) ![reffer](https://img.shields.io/npm/l/reffer.svg?maxAge=2592000)  [![Build Status](https://travis-ci.org/ticky/reffer.svg?branch=master)](https://travis-ci.org/ticky/reffer) [![codecov](https://codecov.io/gh/ticky/reffer/branch/master/graph/badge.svg)](https://codecov.io/gh/ticky/reffer)
+[![npm](https://img.shields.io/npm/v/reffer.svg?maxAge=2592000)](https://www.npmjs.com/package/reffer) ![reffer](https://img.shields.io/npm/l/reffer.svg?maxAge=2592000)  [![Build Status](https://travis-ci.org/ticky/reffer.svg?branch=develop)](https://travis-ci.org/ticky/reffer) [![codecov](https://codecov.io/gh/ticky/reffer/branch/develop/graph/badge.svg)](https://codecov.io/gh/ticky/reffer)
 
 Nice, DRY replacement for React string refs
 
