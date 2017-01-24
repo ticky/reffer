@@ -2,10 +2,7 @@ language: node_js
 node_js:
   - node
 sudo: false
-before_install:
-  - npm install -g yarn@^0.17.10
-install:
-  - yarn
+cache: yarn
 script:
   - yarn lint
   - yarn test
