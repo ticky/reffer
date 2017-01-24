@@ -1,0 +1,49 @@
+{
+  "name": "reffer",
+  "version": "1.0.0",
+  "description": "Nice, DRY replacement for React string refs",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir . --source-maps inline --ignore \"**/*.spec.js\"",
+    "test": "jest",
+    "lint": "eslint src",
+    "lint-and-fixup": "eslint --fix src"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin-transform-function-bind",
+    "react",
+    "component",
+    "ref",
+    "refs",
+    "component refs",
+    "string refs",
+    "string ref"
+  ],
+  "homepage": "https://github.com/ticky/reffer",
+  "bugs": {
+    "url": "https://github.com/ticky/reffer/issues"
+  },
+  "repository": "https://github.com/ticky/reffer.git",
+  "author": "Jessica Stokes <hello@jessicastokes.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.14.0",
+    "jest": "^18.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-function-bind"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}

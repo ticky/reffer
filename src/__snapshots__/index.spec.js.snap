@@ -1,0 +1,5 @@
+exports[`Reffer throws an error if given an invalid argument list 1`] = `"reffer: must be supplied with either 1 or 2 arguments. Got 3."`;
+
+exports[`Reffer throws an error if given an invalid argument list 2`] = `"reffer: must be supplied with either 1 or 2 arguments. Got 0."`;
+
+exports[`Reffer throws an error if given an invalid argument list 3`] = `"reffer: must be supplied with either 1 or 2 arguments. Got 0."`;
